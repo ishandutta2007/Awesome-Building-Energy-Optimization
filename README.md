@@ -1,6 +1,6 @@
 # Awesome Building Energy Optimization 🏢⚡
 
-<p center>
+<p align="center">
   <img src="assets/banner.svg" alt="Awesome Building Energy Optimization Banner" width="100%" />
 </p>
 
