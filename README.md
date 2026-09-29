@@ -61,7 +61,7 @@ This repository tracks notable **SaaS platforms** and **open-source software** f
 
 ## 🔓 Open-Source GitHub Projects
 
-Below is a curated list of leading open-source building energy optimization software, energy management systems (EMS), and simulation frameworks, **sorted by GitHub Stars_Count** 🌟.
+Below is a curated list of leading open-source building energy optimization software, energy management systems (EMS), and simulation frameworks, **sorted by GitHub_Stars_Count** 🌟.
 
 1. **[EnergyPlus](https://github.com/NREL/EnergyPlus)** [![Stars](https://img.shields.io/github/stars/NREL/EnergyPlus?style=social&color=white)](https://github.com/NREL/EnergyPlus/stargazers) 🌟  
    The flagship open-source whole-building energy simulation engine funded by the U.S. Department of Energy (DOE). Models energy, heating, cooling, ventilation, lighting, and water usage in commercial and residential buildings.
