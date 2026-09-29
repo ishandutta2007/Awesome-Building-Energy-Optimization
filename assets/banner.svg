@@ -101,9 +101,9 @@
     <!-- Key Topics Footprint -->
     <g transform="translate(0, 332)">
       <text fill="#cbd5e1" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="500">
-        <tspan fill="#4ade80">●</tspan> Smart Buildings &nbsp;&nbsp;&nbsp;
-        <tspan fill="#38bdf8">●</tspan> HVAC Analytics &nbsp;&nbsp;&nbsp;
-        <tspan fill="#818cf8">●</tspan> Reinforcement Learning &nbsp;&nbsp;&nbsp;
+        <tspan fill="#4ade80">●</tspan> Smart Buildings &#160;&#160;&#160;
+        <tspan fill="#38bdf8">●</tspan> HVAC Analytics &#160;&#160;&#160;
+        <tspan fill="#818cf8">●</tspan> Reinforcement Learning &#160;&#160;&#160;
         <tspan fill="#f43f5e">●</tspan> OpenEMS &amp; EnergyPlus
       </text>
     </g>
