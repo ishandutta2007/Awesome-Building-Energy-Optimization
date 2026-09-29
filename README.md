@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Building-Energy-Optimization"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Building-Energy-Optimization?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Building-Energy-Optimization"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Building-Energy-Optimization?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Building-Energy-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Building-Energy-Optimization?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Building-Energy-Optimization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -61,7 +61,7 @@ This repository tracks notable **SaaS platforms** and **open-source software** f
 
 ## 🔓 Open-Source GitHub Projects
 
-Below is a curated list of leading open-source building energy optimization software, energy management systems (EMS), and simulation frameworks, **sorted by GitHub star count** 🌟.
+Below is a curated list of leading open-source building energy optimization software, energy management systems (EMS), and simulation frameworks, **sorted by GitHub Stars_Count** 🌟.
 
 1. **[EnergyPlus](https://github.com/NREL/EnergyPlus)** [![Stars](https://img.shields.io/github/stars/NREL/EnergyPlus?style=social&color=white)](https://github.com/NREL/EnergyPlus/stargazers) 🌟  
    The flagship open-source whole-building energy simulation engine funded by the U.S. Department of Energy (DOE). Models energy, heating, cooling, ventilation, lighting, and water usage in commercial and residential buildings.
