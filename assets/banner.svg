@@ -85,22 +85,22 @@
     <!-- Top Pill / Category Tag -->
     <g transform="translate(0, 75)">
       <rect width="260" height="30" rx="15" fill="#0369a1" fill-opacity="0.4" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1"/>
-      <text x="16" y="20" class="badge-text">ECOSYSTEM CURATION • 2026</text>
+      <text x="16" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.5" class="badge-text">ECOSYSTEM CURATION • 2026</text>
     </g>
 
     <!-- Main Title -->
-    <text x="0" y="165" class="title">Awesome Building Energy</text>
-    <text x="0" y="220" class="title" fill="#38bdf8">Optimization</text>
+    <text x="0" y="165" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" class="title">Awesome Building Energy</text>
+    <text x="0" y="220" fill="#38bdf8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" class="title">Optimization</text>
 
     <!-- Subtitle -->
-    <text x="0" y="270" class="subtitle">SaaS Platforms, Open-Source EMS, HVAC Control &amp; Grid-Interactive AI</text>
+    <text x="0" y="270" fill="#94a3b8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" class="subtitle">SaaS Platforms, Open-Source EMS, HVAC Control &amp; Grid-Interactive AI</text>
 
     <!-- Horizontal Divider -->
     <line x1="0" y1="305" x2="680" y2="305" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round"/>
 
     <!-- Key Topics Footprint -->
     <g transform="translate(0, 332)">
-      <text fill="#cbd5e1" font-family="system-ui" font-size="14" font-weight="500">
+      <text fill="#cbd5e1" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="500">
         <tspan fill="#4ade80">●</tspan> Smart Buildings &nbsp;&nbsp;&nbsp;
         <tspan fill="#38bdf8">●</tspan> HVAC Analytics &nbsp;&nbsp;&nbsp;
         <tspan fill="#818cf8">●</tspan> Reinforcement Learning &nbsp;&nbsp;&nbsp;
