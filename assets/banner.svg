@@ -13,46 +13,23 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
     </linearGradient>
 
-    <!-- Accent Glow -->
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="greenGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
-    </radialGradient>
-
     <!-- Linear Accents -->
     <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22c55e"/>
       <stop offset="50%" stop-color="#38bdf8"/>
       <stop offset="100%" stop-color="#818cf8"/>
     </linearGradient>
-
-    <!-- SVG Filters for Glow -->
-    <filter id="blurGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="25" result="blur" />
-    </filter>
   </defs>
 
   <style>
-    .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 46px; fill: #ffffff; letter-spacing: -0.5px; }
-    .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 20px; fill: #94a3b8; }
+    .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 44px; fill: #ffffff; letter-spacing: -0.5px; }
+    .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 19px; fill: #94a3b8; }
     .badge-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #38bdf8; letter-spacing: 1.5px; text-transform: uppercase; }
     
-    /* Dynamic Pulse & Waves in Background */
-    @keyframes waveMove {
-      0% { transform: translateX(0px); stroke-dashoffset: 0; }
-      50% { transform: translateX(-20px); }
-      100% { transform: translateX(0px); }
-    }
-
     @keyframes pulseGlow {
-      0% { opacity: 0.3; transform: scale(0.98); }
-      50% { opacity: 0.7; transform: scale(1.02); }
-      100% { opacity: 0.3; transform: scale(0.98); }
+      0% { opacity: 0.3; }
+      50% { opacity: 0.7; }
+      100% { opacity: 0.3; }
     }
 
     @keyframes energyFlow {
@@ -60,16 +37,16 @@
       100% { stroke-dashoffset: 0; }
     }
 
-    .bg-pulse { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+    .bg-pulse { animation: pulseGlow 6s ease-in-out infinite; }
     .flow-line { stroke-dasharray: 20 10; animation: energyFlow 12s linear infinite; }
   </style>
 
   <!-- Background Base -->
   <rect width="1200" height="400" fill="url(#bgGrad)" rx="16"/>
 
-  <!-- Background Animated Ambient Glows (Behind all cards/text) -->
-  <circle cx="200" cy="100" r="250" fill="url(#glow)" class="bg-pulse" filter="url(#blurGlow)"/>
-  <circle cx="1000" cy="300" r="280" fill="url(#greenGlow)" class="bg-pulse" filter="url(#blurGlow)"/>
+  <!-- Background Glowing Circles (without filter/transform-origin issues) -->
+  <circle cx="200" cy="100" r="220" fill="#38bdf8" fill-opacity="0.15" class="bg-pulse"/>
+  <circle cx="1000" cy="300" r="250" fill="#22c55e" fill-opacity="0.15" class="bg-pulse"/>
 
   <!-- Grid Pattern Overlay -->
   <g opacity="0.08">
@@ -77,24 +54,21 @@
     <path d="M100 0V400 M200 0V400 M300 0V400 M400 0V400 M500 0V400 M600 0V400 M700 0V400 M800 0V400 M900 0V400 M1000 0V400 M1100 0V400" stroke="#ffffff" stroke-width="1"/>
   </g>
 
-  <!-- Dynamic Energy Waves / Flow Charts (Background Graphics) -->
+  <!-- Dynamic Energy Waves / Flow Charts -->
   <g opacity="0.25">
     <path d="M 50 320 Q 250 180 450 280 T 850 220 T 1150 140" fill="none" stroke="url(#lineGrad)" stroke-width="4" class="flow-line"/>
     <path d="M 50 350 Q 300 240 550 330 T 950 200 T 1150 180" fill="none" stroke="#22c55e" stroke-width="2" stroke-dasharray="8 6"/>
   </g>
 
-  <!-- Decorative Energy Building Graphic (Right Side) -->
-  <g transform="translate(820, 80)" opacity="0.85">
-    <!-- Glassmorphism Card for Graphic -->
+  <!-- Decorative Graphic Card (Right Side) -->
+  <g transform="translate(820, 80)" opacity="0.9">
     <rect x="0" y="0" width="310" height="240" rx="16" fill="url(#glassGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5"/>
     
-    <!-- Dynamic Building Metric Bars -->
     <text x="25" y="40" fill="#e2e8f0" font-family="system-ui" font-size="14" font-weight="600">⚡ HVAC &amp; Grid Optimization</text>
 
     <!-- Simulated Real-Time Metric Lines -->
     <path d="M 25 180 L 70 140 L 115 160 L 160 90 L 205 120 L 250 60 L 280 80" fill="none" stroke="#38bdf8" stroke-width="3"/>
     <circle cx="250" cy="60" r="5" fill="#38bdf8"/>
-    <circle cx="250" cy="60" r="9" fill="none" stroke="#38bdf8" stroke-width="2" class="bg-pulse"/>
 
     <path d="M 25 190 L 70 165 L 115 175 L 160 130 L 205 150 L 250 110 L 280 125" fill="none" stroke="#22c55e" stroke-width="2" stroke-dasharray="4 4"/>
 
@@ -106,7 +80,7 @@
     <text x="125" y="215" fill="#38bdf8" font-family="system-ui" font-size="11" font-weight="700">AI Control</text>
   </g>
 
-  <!-- Main Foreground Content Area (Ensures zero overlap with background elements) -->
+  <!-- Main Foreground Content Area -->
   <g transform="translate(70, 0)">
     <!-- Top Pill / Category Tag -->
     <g transform="translate(0, 75)">
@@ -116,7 +90,7 @@
 
     <!-- Main Title -->
     <text x="0" y="165" class="title">Awesome Building Energy</text>
-    <text x="0" y="220" class="title" fill="#38bdf8">Optimization 🏢⚡</text>
+    <text x="0" y="220" class="title" fill="#38bdf8">Optimization</text>
 
     <!-- Subtitle -->
     <text x="0" y="270" class="subtitle">SaaS Platforms, Open-Source EMS, HVAC Control &amp; Grid-Interactive AI</text>
